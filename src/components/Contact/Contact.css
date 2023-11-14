@@ -1,0 +1,83 @@
+:root{
+    --primary : #000;
+    --secondary : rgb(24, 24 ,27);
+    --border: rgba(63,63,70,0.4);
+    --title: rgb(244 244 245);
+    --subtitle: rgb(161 161 170);
+    --bgHeader : rgb(39 39 42);
+    --blue: rgb(93 188 252)
+}
+.contact{
+    padding: 15px 30px;
+    gap: 20px;
+    margin: 20px 0;
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--border);
+
+}
+
+
+.contact-title{
+    margin: 10px 0;
+}
+.contact-title h2{
+    margin: 10px 0;
+    font-size: 30px;
+    color: var(--title);
+}
+.contact-title p{
+    font-size: 14px;
+    color: var(--subtitle);
+}
+
+.contact form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+form button,form input ,form textarea{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    background-color: var(--bgHeader);
+    color: var(--subtitle);
+    border: 1px solid var(--border);
+    font-size: 15px;
+    text-transform: capitalize;
+    transition: 0.3s all;
+}
+form input:focus ,form textarea:focus{
+outline: none;
+border: 1px solid var(--blue);
+}
+form button:hover{
+    border: 1px solid var(--blue);
+}
+textarea{
+    resize: none;
+    height: 150px;
+}
+.icon-contact{
+    margin: 0 20px 0 0;
+}
+.ani-email{
+    width: 350px;
+    height: 350px;
+}
+.lottie-successfully{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+@media(width < 700px) {
+    .contact{
+        text-align: center;
+    }
+    .animation-contact{
+        display: none;
+    }
+    .contact form{
+       width: 100%;
+    }
+}

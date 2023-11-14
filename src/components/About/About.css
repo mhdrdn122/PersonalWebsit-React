@@ -1,0 +1,33 @@
+:root{
+    --primary : #000;
+    --secondary : rgb(24, 24 ,27);
+    --border: rgba(63,63,70,0.4);
+    --title: rgb(244 244 245);
+    --subtitle: rgb(161 161 170);
+    --bgHeader : rgb(39 39 42)
+}
+footer{
+    padding: 15px 30px;
+}
+
+footer ul li{
+   margin: 5px;
+   text-transform: capitalize;
+}
+footer ul li a,.footer-info{
+color: var(--subtitle);
+font-size:14px;
+
+}
+
+footer ul li a:hover{
+    color: var(--title);
+}
+
+@media (width <700px) {
+    footer{
+        flex-direction: column !important ;
+        text-align: center;
+    }
+}
+
