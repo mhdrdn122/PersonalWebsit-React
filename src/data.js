@@ -1,11 +1,11 @@
 export const data = [
-    {id:1 ,img:'images/selecac.PNG', title:"selecao" ,
+    {id:1 ,img:"images/selecac.PNG", title:"selecao" ,
     disc:"One page website using html and bootstrap and animate.css ",
     demo:"https://mhdrdn122.github.io/selecao/",
     code: "https://github.com/mhdrdn122/selecao",
     category:"bootstrap" },
 
-    {id:2 ,img:"images/laura.png", title:"laura" ,
+    {id:2 ,img:"images/laura.PNG", title:"laura" ,
     disc:"One page website using pure html and css ",
     demo:"https://mhdrdn122.github.io/laura/main.html?fbclid=IwAR22kT1a28IDX8vLZkCXFpdJjLSYECMesqKpyJj18p7NN7f085EcsqPgU74",
     code: "https://github.com/mhdrdn122/laura",
@@ -29,14 +29,14 @@ export const data = [
     code: "https://github.com/mhdrdn122/Project-3",
     category:"pure css" },
 
-    {id:6 ,img:"images/q.png", title:"question" ,
+    {id:6 ,img:"images/q.PNG", title:"question" ,
     disc:"A simple project to display questions and answers that uses React js and bootstrap and localstorge",
     demo:"https://mhdrdn122.github.io/question/",
     code: "https://github.com/mhdrdn122/question",
     category:"react" },
 
 
-    {id:7 ,img:"images/movie.png", title:"Movie List " ,
+    {id:7 ,img:"images/movie.PNG", title:"Movie List " ,
     disc:"The movie list project is a project through which you can browse or search for your favorite movie and see various information about this movie when you click on it. In this project, I use react js and axios to fetch data from Api(no deploy)",
     demo:"https://mhdrdn122.github.io/moviesWithRedux/",
     code: "https://github.com/mhdrdn122/moviesWithRedux",

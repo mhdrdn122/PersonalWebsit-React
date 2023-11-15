@@ -54,3 +54,8 @@
 .arrow-icon{
     margin: 10px 0 0 0;
 }
+@media ( width < 700px) {
+    .card {
+        text-align: center;
+    }
+}

@@ -5,7 +5,7 @@ import {FaTelegramPlane ,FaGithub , FaFacebookSquare}  from 'react-icons/fa'
 import Lottie from "lottie-react";
 import { motion } from 'framer-motion'
 import developer from '../../assest/animation/Animation - developer.json'
-import { avatar } from '../Main/data';
+import { avatar } from '../../data';
 export default function Hero() {
   return (
     <section className='hero d-flex justify-content-between items-center '>

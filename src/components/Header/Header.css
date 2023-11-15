@@ -17,6 +17,9 @@ padding: 10px;
 border-radius: 30px;
 box-shadow: 1px 1px 40px var(--blueShadow);
 border: 1px solid var(--border);
+display: flex;
+justify-content: center;
+align-items: center;
 }
 header nav ul li {
     margin:0 10px;
@@ -46,11 +49,11 @@ header nav ul li a:hover{
     opacity: 0.8;
 }
 
-.btn-close{
-    background-color: transparent;
+.btn-close {
+    background: transparent !important;
     border: none;
     transition: 0.5s;
-    color: var(--title);
+    color: var(--title) !important;
     
 }
 .btn-close:hover{
@@ -74,7 +77,7 @@ button{
     animation: fixedIn .5s 1;
     overflow: hidden;
     backdrop-filter: blur(8px);
-
+    z-index: 10;
 }
 .fixed ul{
     width: 60%;

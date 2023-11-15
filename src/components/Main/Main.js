@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Main.css'
 import Card from '../Card/Card'
-import { data , categoryBtn } from './data'
+import { data , categoryBtn } from '../../data.js'
 
 export default function Main() {
   

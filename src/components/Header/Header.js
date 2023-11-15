@@ -37,7 +37,7 @@ export default function Header() {
       <div className='div' />
       <button className='btn-toggle' onClick={()=> { satShowMod(true)}}><BiMenu size={18}/></button>
       <nav>
-          <ul className='d-flex items-center justify-content-between'>
+          <ul>
             <li><a href='#about'>about</a></li>
             <li><a href='#main'>projects</a></li>
             <li><a href='#contact'>contact</a></li>
