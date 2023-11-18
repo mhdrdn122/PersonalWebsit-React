@@ -6,7 +6,7 @@ export default function About() {
     <footer id='about' className='d-flex items-center justify-content-between'>
       <ul className='d-flex'>
             <li><a href='#about'>about</a></li>
-            <li><a href='#projects'>projects</a></li>
+            <li><a href='#main'>projects</a></li>
 
       </ul>
       <div className='footer-info'>

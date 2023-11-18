@@ -2,8 +2,8 @@
 import React from 'react'
 import './Contact.css'
 import Lottie from "lottie-react";
-import done from '../../assest/animation/Animation - done.json'
-import email from '../../assest/animation/Animation - email.json'
+import lottie_done from '../../assest/animation/Animation - done.json'
+import lottie_email from '../../assest/animation/Animation - email.json'
 
 import {MdOutlineMailOutline} from 'react-icons/md'
 import { useForm, ValidationError } from '@formspree/react';
@@ -30,10 +30,10 @@ export default function Contact() {
             <textarea value={mas} placeholder='message' name='message'/>
             <ValidationError prefix="Message" field="message" errors={state.errors}/>
             <button type="submit" onClick={() =>{setEmail('');setMas('')}} disabled={state.submitting} >{state.submitting ? "submiting...": "sand"}</button>
-            {state.succeeded ? (<h2 className='lottie-successfully'> <Lottie loop="false" style={{width:"40px" , display:"inline-block"}} animationData={done} /> Thank you, the message has been sent successfully</h2>):null}
+            {state.succeeded ? (<h2 className='lottie-successfully'> <Lottie loop="false" style={{width:"40px" , display:"inline-block"}} animationData={lottie_done} /> Thank you, the message has been sent successfully</h2>):null}
           </form>
           <div className='animation-contact'>
-          <Lottie className='ani-email'  animationData={email} /> 
+          <Lottie className='ani-email'  animationData={lottie_email} /> 
           </div>
       </div>
     </section>

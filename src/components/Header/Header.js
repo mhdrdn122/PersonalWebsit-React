@@ -1,9 +1,11 @@
 import React, { useState ,useEffect } from 'react'
 import { IoCloseSharp } from "react-icons/io5";
-import { BsMoonStars } from "react-icons/bs";
 import { BiMenu } from "react-icons/bi";
-import { HiSun } from "react-icons/hi";
 
+
+import Lottie from "lottie-react";
+import moon from '../../assest/animation/moon.json'
+import sun from '../../assest/animation/sun.json'
 
 
 
@@ -56,9 +58,11 @@ export default function Header() {
       </div>):null
       }
       
-      <button className='btn-mode' onClick={() => {them ==="dark" ? modeThemFun("light",false) :modeThemFun("dark",true)}} >
+      <button className='btn-mode ' onClick={() => {them ==="dark" ? modeThemFun("light",false) :modeThemFun("dark",true)}} >
          {
-          modeThem ? <BsMoonStars className='mode-icon'  size={18} /> : <HiSun className='mode-icon'  size={18} />
+          // modeThem ? <BsMoonStars className='mode-icon'  size={18} /> : <HiSun className='mode-icon'  size={18} />
+          modeThem ? <Lottie className='ani-mod'   animationData={moon} />  : <Lottie className='ani-mod'  animationData={sun} />  
+
          }
          </button>
     </header>

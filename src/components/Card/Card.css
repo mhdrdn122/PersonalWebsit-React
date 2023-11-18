@@ -43,6 +43,9 @@
     border-color: var(--blue);
 }
 
+.icons-card{
+    margin-bottom: 10px;
+}
 .icons-card > span a{
     color: var(--blue);
     transition: 0.3s;
@@ -57,5 +60,6 @@
 @media ( width < 700px) {
     .card {
         text-align: center;
+        width: 100%;
     }
 }
