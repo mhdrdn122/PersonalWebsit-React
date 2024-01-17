@@ -42,6 +42,12 @@ export const data = [
     code: "https://github.com/mhdrdn122/moviesWithRedux",
     category:"react" },
 
+    {id:8 ,img:"images/shop.PNG", title:"ShopCart " ,
+    disc:"Building a complete online store using React js The following techniques were used: React js and firebase and Building the login and Registration Pages on the website and Building the CartPage and Bootstrap",
+    demo:"https://ecommerce2-vert-one.vercel.app/",
+    code: "https://github.com/mhdrdn122/ecommerce2",
+    category:"react" }
+
 
   ]
 
