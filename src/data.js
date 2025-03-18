@@ -29,18 +29,25 @@ export const data = [
     code: "https://github.com/mhdrdn122/Project-3",
     category:"pure css" },
 
-    {id:6 ,img:"images/q.PNG", title:"question" ,
-    disc:"A simple project to display questions and answers that uses React js and bootstrap and localstorge",
-    demo:"https://mhdrdn122.github.io/question/",
-    code: "https://github.com/mhdrdn122/question",
+    // {id:6 ,img:"images/q.PNG", title:"questions" ,
+    //   disc:"A simple project to display questions and answers that uses React js and bootstrap and localstorge",
+    //   demo:"https://mhdrdn122.github.io/question/",
+    //   code: "https://github.com/mhdrdn122/question",
+    //   category:"react" },
+
+
+    {id:6 ,img:"images/ecommerce4.jpeg", title:"FOODMART" ,
+    disc:"A modern e-commerce store built with React, featuring a responsive design and a seamless user experience. The project includes a comprehensive admin dashboard for managing products, categories, and users, as well as a shopping cart for easy order management.",
+    demo:"https://ecommerce4-phi.vercel.app/",
+    code: "https://github.com/mhdrdn122/ecommerce4",
     category:"react" },
 
 
-    {id:7 ,img:"images/movie.PNG", title:"Movie List " ,
-    disc:"The movie list project is a project through which you can browse or search for your favorite movie and see various information about this movie when you click on it. In this project, I use react js and axios to fetch data from Api(no deploy)",
-    demo:"https://mhdrdn122.github.io/moviesWithRedux/",
-    code: "https://github.com/mhdrdn122/moviesWithRedux",
-    category:"react" },
+    // {id:7 ,img:"images/movie.PNG", title:"Movie List " ,
+    // disc:"The movie list project is a project through which you can browse or search for your favorite movie and see various information about this movie when you click on it. In this project, I use react js and axios to fetch data from Api(no deploy)",
+    // demo:"https://mhdrdn122.github.io/moviesWithRedux/",
+    // code: "https://github.com/mhdrdn122/moviesWithRedux",
+    // category:"react" },
 
     {id:8 ,img:"images/shop.PNG", title:"ShopCart " ,
     disc:"Building a complete online store using React js The following techniques were used: React js and firebase and Building the login and Registration Pages on the website and Building the CartPage and Bootstrap",
@@ -51,5 +58,5 @@ export const data = [
 
   ]
 
-export const categoryBtn = ["all" , "pure css" , "bootstrap" , "javaScript" , "react"]
+export const categoryBtn = ["all" , "react" ,  "pure css"  , "javaScript" , "bootstrap"  ]
 export const avatar ='images/avatar.jpg'

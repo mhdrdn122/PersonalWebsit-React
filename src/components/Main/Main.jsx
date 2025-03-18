@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import './Main.css'
-import Card from '../Card/Card'
 import { data , categoryBtn } from '../../data.js'
-
+import Card from '../Card/Card.jsx'
 export default function Main() {
   
   const [projects , setProjects] = useState(data)
   const [active , setActive] = useState("all")
-
+ 
   const filterProjects = (cat) =>{
    if(cat==="all"){
     setProjects(data)
