@@ -21,10 +21,12 @@
     margin: 20px 0;
 }
 .avatar img{
-    width: 120px;
+    width: 200px;
     border-radius:50%;
     border: 3px solid #008080
 }
+
+
 .Content-Hero .avatar{
     align-items: end;
 }

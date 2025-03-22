@@ -2,7 +2,6 @@ import React from 'react'
 import './About.css'
 
 export default function About() {
-  console.log("test")
   return (
     <footer id='about' className='d-flex items-center justify-content-between'>
       <ul className='d-flex'>
